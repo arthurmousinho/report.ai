@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/server.ts",
     "seed": "tsx prisma/seed.ts",
-    "migrate": "tsx prisma/migrate.ts"
+    "migrate": "npx prisma migrate dev"
   },
   "keywords": [],
   "author": "",
