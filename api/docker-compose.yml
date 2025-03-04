@@ -1,0 +1,11 @@
+name: report-ai-db
+
+services:
+  pg:
+    image: bitnami/postgresql:latest
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_USER=reportai-user
+      - POSTGRES_PASSWORD=reportai-password
+      - POSTGRES_DB=reportai-db
