@@ -1,5 +1,7 @@
 # ✨ report.ai
 
+![image](./.github/report-ai.png)
+
 ## 🚀 About
 An intelligent chat application that generates reports and insights from a PostgreSQL database using Vercel AI SDK.
 
@@ -36,6 +38,11 @@ Copy environment variables:
 cp .env.example .env
 ```
 **⚠️ Important:** Set your `OPENAI_API_KEY` in the `.env` file before proceeding.
+
+Run database using Docker:
+```bash
+docker compose up -d
+```
 
 Run database migrations:
 ```bash
